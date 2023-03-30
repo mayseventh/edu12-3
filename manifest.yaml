@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ghcr.io/shclub/edu12-3
+        image: ghcr.io/mayseventh/edu12-3
         env:
         - name: BACKEND_API_URL
           value: "http://backend" 
@@ -44,7 +44,7 @@ kind: Route
 metadata:
   name: frontend
 spec:
-  host: frontend-edu1.apps.211-34-231-82.nip.io
+  host: frontend-edu11.apps.211-34-231-82.nip.io
   port:
     targetPort: 80
 #  tls:
